@@ -1,0 +1,65 @@
+.card {
+    flex-basis: 350px;
+    height: 400px;
+    margin: 0 16px 16px 0;
+    padding: 16px;
+    position: relative;
+    box-shadow: 0px 3px 16px $lightGrey;
+    &__body {
+        position: absolute; 
+        bottom: 16px; 
+    }
+    &__img {
+        width: 100%;
+    }
+    &__title {
+        font-family: $robotoBold;
+        font-size: 1.2em;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 8px;
+        
+    }
+    &__text {
+        font-family: $robotoRegular;
+    }
+    &__span {
+        font-weight: bold;
+        padding-right: 10px;
+    }
+    &__btn {
+        font-family: $latoBold;
+        margin-top: 16px;
+        padding: 10px;
+        color: $white;
+        background-color: $green;
+        box-shadow: 0px 3px 9px $black;
+        border: none;
+        cursor: pointer;
+        transition: all 0.4s;
+        &--hover {
+            &:hover {
+                padding: 12px;
+                font-size: 16px;
+            }
+        }
+    }
+    &__favourite {
+        font-size: 26px;
+        cursor: pointer;
+        color: $lightGrey;
+        position: absolute;
+        right: 16px;
+        bottom: 110px; 
+       
+        &--selected {
+            color: $red;
+        }
+        &--unselected {
+            color: $lightGrey;
+        }
+    } 
+}
+
+

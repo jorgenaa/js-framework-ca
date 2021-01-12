@@ -1,0 +1,19 @@
+.search-box {
+        margin: 16px;
+        height: 50px;
+        text-align: center;
+    &__input {
+        padding: 8px;
+        border-radius: 5px;
+        border: .5px solid $lightGrey;
+        &--active {
+            &:focus:not([readonly]) {
+                outline: none;
+                border-color: $lightBlue;
+                box-shadow: 0 0 0 1px $lightBlue;
+
+            }
+          
+        }
+    }
+}

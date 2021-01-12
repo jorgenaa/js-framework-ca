@@ -1,0 +1,14 @@
+.game-list {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &__margin-top {
+        margin-top:16px;
+    }
+    &__message {
+        font-family: $robotoBold;
+    }
+}

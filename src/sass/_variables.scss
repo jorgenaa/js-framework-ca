@@ -1,0 +1,47 @@
+//color variables
+
+$red: #d9534f;
+$green: #3ba13b;
+$white: #f7f7f7;
+$lightBlue: #5bc0de;
+$blue: #056dc9;
+$black: #292b2c;
+
+$lightGrey: #ccc;
+
+
+
+//font variables
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype'), 
+}
+
+@font-face {
+    font-family: 'Roboto Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype'), 
+}
+
+@font-face {
+    font-family: 'Lato Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Lato-Bold.ttf') format('truetype'), 
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/Lato-Regular.ttf') format('truetype'), 
+}
+
+$robotoRegular: 'Roboto';
+$robotoBold: 'Roboto Bold';
+$latoBold: 'Lato Bold';
+$latoRegular: 'Lato Regular';

@@ -1,0 +1,73 @@
+.game-details {
+    max-width: 700px;
+    margin: 32px auto;
+    padding: 16px;
+    font-family: robotoRegular;
+    box-shadow: 0px 3px 16px $lightGrey;
+    border-radius: 5px;
+    &__heading {
+        text-align: center;
+        margin: 16px 0;
+    }
+    &__sections {
+       margin-bottom: 32px;
+    }
+     &__img {
+        padding: 8px 8px 0;
+        width: 100%;
+    }
+    &__text {
+        padding: 16px;
+        letter-spacing: .5px;
+        
+    }
+    &__text-padding {
+        padding-left: 8px;
+    }
+    &__link {
+        width: 100%;
+        font-family: $latoBold;
+        text-transform: uppercase;
+        font-size: 16px;
+        text-decoration: none;
+        color: $blue;
+        padding: 16px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid $blue; 
+        &--hover {
+           
+            &:hover {
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link'
+                 xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' 
+                 xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E %3Cpath fill='none' 
+                 stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+                background-position: bottom;
+                background-repeat: repeat-x;
+                background-size: 5%;
+                border-bottom: 0;
+                padding-bottom: .3em;
+                text-decoration: none;
+               
+            }
+            
+        }
+    }
+    &__genre {
+        padding: 16px 16px 8px;
+    }
+    &__genre-span {
+        font-family: $robotoBold;
+        padding-right: 8px;
+    }
+    &__platforms-title {
+        margin-left: 16px;
+        margin-bottom: 16px;
+        text-decoration: underline;
+    }
+    
+    &__platforms-list {
+        padding: 0 8px;
+        margin-left: 32px;
+    }
+   
+}

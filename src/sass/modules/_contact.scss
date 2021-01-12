@@ -1,0 +1,64 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: 16px auto;
+	&__element {
+	margin: 10px 0;
+	width: 100%;
+	text-align: left;
+}
+	&__label {
+	vertical-align: top;
+	width: 20%;
+	display: inline-block;
+	padding: 10px 5px;
+	font-family: $latoBold;
+}
+	&__input {
+		width: 80%;
+		display: inline-block;
+		padding: 10px 5px;
+		border: 1px solid $lightGrey;
+		&--active {
+            &:focus:not([readonly]) {
+                outline: none;
+                border-color: $lightBlue;
+                box-shadow: 0 0 0 1px $lightBlue;
+            }
+		}
+	}
+	&__message {
+		width: 80%;
+		padding: 10px 5px;
+		height: 150px;
+		border: 1px solid $lightGrey;
+		&--active {
+            &:focus:not([readonly]) {
+                outline: none;
+                border-color: $lightBlue;
+                box-shadow: 0 0 0 1px $lightBlue;
+            }
+		}
+	}
+	&__btn-submit {
+		width: 20%;
+		font-family: $latoBold;
+		color: $white;
+		background-color: $green;
+		padding: 10px 5px;
+		cursor: pointer;
+	}
+	&__error {
+		color: $red;
+		margin-left: 20%;
+		margin-top: 8px;
+	}
+}
+
+
+
+
+
+
+
